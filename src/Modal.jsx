@@ -9,7 +9,7 @@ const Modal = ({open, onClose}) => {
         <div className="modalContainer">
             <img src={nft} alt="" />
             <div className="modalright">
-                <div onClick={onClose} className="closeBtn">X</div>
+                <p onClick={onClose} className="closeBtn">X</p>
                 <div className="content">
                     <p>Do you want a</p>
                     <h1>$20 CREDIT</h1>
